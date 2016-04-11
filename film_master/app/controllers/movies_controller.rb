@@ -29,5 +29,4 @@ class MoviesController < ApplicationController
 		render("show")
 	end
 
-
 end

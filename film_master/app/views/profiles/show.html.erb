@@ -1,16 +1,15 @@
-<head>
-<link rel="stylesheet" type="text/css" href="/stylesheets/profile.css">
-</head>
+
+<%= stylesheet_link_tag "/profile.css" %>
+<body class="profileshow"></body>
 <div class="profile_page">
 
 	<h1><%= full_name %></h1>
 
 <div class="profile">
-		<p class="heading">
-		My Profile
-		</p>
+		
 		
 		<div class="profile_info">
+		<h2>My Profile</h2>
 			<p> Gender:  <%= @profiles.gender %> </p>
 			<p>Birthday: <%= @profiles.birthday %> </p>
 			<p>Language: <%= @profiles.language %> </p>
@@ -18,7 +17,6 @@
 		</div>
 
 </div>
-
 
 </div>
 

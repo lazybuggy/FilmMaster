@@ -4,6 +4,7 @@ class ProfilesController < ApplicationController
 
   	@profiles = Profile.find(params[:profile_id])
   	@users = User.find(@profiles.user_id)
+
   	@genres = GenresProfile.where(:profile_id => params[:profile_id])
   	
   	

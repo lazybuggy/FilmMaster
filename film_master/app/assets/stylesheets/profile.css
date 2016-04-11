@@ -1,58 +1,59 @@
 
-body.profile{
-	background-color: black;
+body.profileshow{
+	background-image: url("/assets/spirited_away.jpg");
+	 background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
 }
 .profile_page{
 	background-color: #BBBBBB;
 	padding: 20px 50px;
-	margin:0px auto;
-	width:60%;
-	height:800px;
+	margin:50px auto;
+	width:400px;
+	height:400px;
+	border: 5px solid #325b84;
 }
 
-.profile_info, .favourite_info{
+.profile_info{
 	background-color: #FFFFFF;
 	border-radius:5px;
 	padding:15px;
-	float:right;
+	margin:0px auto;
+	/*float:right;*/
 	color:#BBBBBB;
-	width:70%;
+	width:90%;
+	overflow: hidden;
 }
 
 .profile_page h1{
 	font-family: Abel;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: bold;
 	color:black;
+	text-align:center;
 }
 
-.profile_info p,.favourite_info p{
+.profile_info p{
 	font-family: Abel;
 	color:#555555;
-	font-size:30px;
+	font-size:20px;
 }
-.profile_info a, .favourite_info a{
+.profile_info a{
 	font-family: Abel;
 	color:rgb(50, 101, 152);
-	font-size:30px;
+	font-size:20px;
 	float: right;
 	text-decoration: none;
 }
-.profile_info a:hover, .favourite_info a:hover{
+.profile_info a:hover{
 	text-decoration: underline;
 }
-.heading{
+.profile_page h2{
 	font-family: Abel;
 	color:rgb(0, 51, 102);
-	font-size:30px;
-	float:left;
-	padding:0px;
+	font-weight: bold;
 }
 .profile{
 	margin:10px;
 	overflow: hidden;
-}
-.favourite{
-	margin: 10px;
-	overflow:hidden;
 }

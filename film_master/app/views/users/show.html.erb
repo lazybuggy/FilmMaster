@@ -1,12 +1,12 @@
-<head>
-<link rel="stylesheet" type="text/css" href="/stylesheets/settings.css">
-</head>
+<%= stylesheet_link_tag "/settings.css" %>
+<body class="settingshow"></body>
 <div class="account_page">
 
 <h1><%= full_name %></h1>
 	<div class="account">
-	<p class="heading">Account Info</p>
+	
 		<div class="account_info">
+		<h2>Account Info</h2>
 			<p>email: <%= @users.email %></p>
 			<p>password: ********* </p>
 			<p>City: <%= @users.city %></p>

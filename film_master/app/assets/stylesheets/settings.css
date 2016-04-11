@@ -1,50 +1,59 @@
+body.settingshow{
+	background-image: url("/assets/sponge.jpg");
+	 background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
 .account_page{
 	background-color: #BBBBBB;
 	padding: 20px 50px;
-	margin:0px auto;
-	width:60%;
-	height:900px;
-	/*overflow: hidden;*/
+	margin:50px auto;
+	width:400px;
+	height:600px;
+	border: 5px solid #325b84;
 }
 
 .account_info{
 	background-color: #FFFFFF;
 	border-radius:5px;
 	padding:15px;
-	float:right;
+	margin:10px auto;
+	/*float:right;*/
 	color:#BBBBBB;
-	width:70%;
+	width:90%;
+	overflow: hidden;
 }
 
 .account_page h1{
 	font-family: Abel;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: bold;
 	color:black;
+	text-align:center;
+}
+.account_page h2{
+	font-family: Abel;
+	color:rgb(0, 51, 102);
+	font-weight: bold;
 }
 
 .account_info p{
 	font-family: Abel;
 	color:#555555;
-	font-size:30px;
+	font-size:20px;
 }
 .account_info a{
 	font-family: Abel;
 	color:rgb(50, 101, 152);
-	font-size:30px;
+	font-size:20px;
 	float: right;
 	text-decoration: none;
 }
 .account_info a:hover{
 	text-decoration: underline;
 }
-.heading{
-	font-family: Abel;
-	color:rgb(0, 51, 102);
-	font-size:30px;
-	float:left;
-	padding:0px;
-}
+
 .account{
 	margin:10px;
 	overflow: hidden;
